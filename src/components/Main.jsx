@@ -17,7 +17,7 @@ export const Main = () => {
     const dataa = jsonData
 
     const fetchData = async () => {
-        const KEY = 'eaea703509ae1465a5cc93b8cac5e6a4'
+        const KEY = ''
         const API = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${KEY}&units=metric&formatted=0`
 
         try {
